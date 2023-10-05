@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class LibriDTO implements Dto {
-    String id;
+    Long id;
 
 
     String isbn;
