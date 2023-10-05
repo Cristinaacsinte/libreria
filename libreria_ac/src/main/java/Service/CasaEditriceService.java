@@ -1,10 +1,10 @@
 package Service;
 
-import entity.Autori;
+import entity.CasaEditrice;
 
 import java.util.List;
 
-public interface CasaEditrice {
+public interface CasaEditriceService {
     List<CasaEditrice> findAll();
 
     CasaEditrice insert(CasaEditrice casaEditrice);
